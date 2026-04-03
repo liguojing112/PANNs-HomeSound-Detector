@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.png
+*.zip
+data/
+checkpoints/
+logs/
+
+# ESC-50 音频数据集体积大，仅本地使用，不纳入版本库
+ESC-50-master/audio/
